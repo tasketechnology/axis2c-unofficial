@@ -280,8 +280,8 @@ axiom_element_find_namespace(
         /* wrong element type or null node */
         AXIS2_ERROR_SET(env->error, AXIS2_ERROR_INVALID_NULL_PARAM,
                         AXIS2_FAILURE);
-        AXIS2_LOG_ERROR(env->log, AXIS2_LOG_SI, 
-            "Wrong element type or null node");
+        //AXIS2_LOG_ERROR(env->log, AXIS2_LOG_SI, 
+        //    "Wrong element type or null node");
         return NULL;
     }
 
